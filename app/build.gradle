@@ -53,7 +53,8 @@ dependencies {
     // implementation 'com.github.Navigine:Indoor-Navigation-Android-Mobile-SDK-2.0:46dd8a07c6'
 
     // navigine sdk
-    implementation project(":libnavigine")
+     implementation project(":libnavigine")
+//    implementation files('libs/Indoor-Navigation-Android-Mobile-SDK-2.0-46dd8a07c6.aar')
 
     testImplementation "junit:junit:$junit_version"
 
